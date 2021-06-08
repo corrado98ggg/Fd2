@@ -3,6 +3,8 @@
 #include <stdlib.h>
 #include <string.h>
 
+//NOTA BENE NON FUNZIONA IN TUTTI I CASI
+
 Heap* MergeHeap(const Heap* h1, const Heap* h2) {
 
 	Heap* new = HeapCreateEmpty();
